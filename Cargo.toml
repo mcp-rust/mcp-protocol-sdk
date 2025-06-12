@@ -47,7 +47,7 @@ tracing-subscriber = { version = "0.3", optional = true }
 chrono = { version = "0.4", features = ["serde"], optional = true }
 
 # Schema validation
-jsonschema = { version = "0.17", optional = true }
+jsonschema = { version = "0.30", optional = true }
 
 # Process management for stdio
 tokio-process = { version = "0.2", optional = true }
